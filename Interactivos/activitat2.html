@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buscador de Smartphones</title>
+    <title>Buscador</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -25,7 +25,7 @@
     </style>
 </head>
 <body>
-    <h1>Buscador de Smartphones</h1>
+    <h1>Buscador de telefonos</h1>
     <label for="marca">Marca:</label>
     <input type="text" id="marca" list="marcas" placeholder="Selecciona una marca">
 
@@ -42,11 +42,11 @@
         <option value="401-600">401 - 700€</option>
         <option value="701-1000+">701 - 1000+</option>
     </select>
-    <button onclick="buscarSmartphones()">Buscar</button>
+    <button onclick="buscartelefono()">Buscar</button>
     <div id="resultados">
     </div>
     <script>
-        function buscarSmartphones() {
+        function buscartelefono() {
             var marca = document.getElementById('marca').value;
             var precio = document.getElementById('precio').value;
             var resultadosDiv = document.getElementById('resultados');
