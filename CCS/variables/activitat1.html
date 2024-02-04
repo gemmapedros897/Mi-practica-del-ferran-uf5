@@ -1,0 +1,30 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Documento con Color Variable</title>
+  <style>
+    :root {
+      --color-destacado: #239ced;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      color: #333;
+      margin: 20px;
+    }
+
+    h1, a {
+      color: var(--color-destacado);
+    }
+
+    p {
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Título con Color Variable</h1>
+  <p>Este es un párrafo que contiene algunos <a href="activitat2.html">hipervínculos</a> con el mismo color definido por la variable.</p>
+</body>
+</html>
