@@ -1,0 +1,76 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos_sitio.css">
+    <title>Mi Nuevo sitio</title>
+</head>
+<body>
+    <style>
+    body {
+    font-family: 'Arial', sans-serif; /* Fallback en caso de que no se cargue la fuente personalizada */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #5d4545;
+}
+
+header {
+    background-color: #c08f8f;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1.titulo-principal {
+    font-family: 'FuenteTitulo', sans-serif; /* Utiliza la primera fuente descargada para el título */
+}
+
+.contenido {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p.texto-normal {
+    font-family: 'FuenteTexto', sans-serif; /* Utiliza la segunda fuente descargada para el texto */
+}
+
+footer {
+    background-color: #ad8e8e;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Cargar fuentes con @font-face */
+@font-face {
+    font-family: 'FuenteTitulo';
+    src: url('ruta_fuente_titulo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FuenteTexto';
+    src: url('ruta_fuente_texto.woff') format('woff');
+}
+    </style>
+    <header>
+        <h1 class="titulo-principal">Bienvenido a Mi Nuevo Sitio</h1>
+    </header>
+    
+    <section class="contenido">
+        <p class="texto-normal">
+            En este sitio encontrarás contenido interesante y relevante sobre diversos temas. ¡Esperamos que disfrutes de tu visita!
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mi Nuevo Sitio. de Gemma Pedros</p>
+    </footer>
+</body>
+</html>
