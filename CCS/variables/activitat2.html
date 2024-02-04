@@ -1,0 +1,22 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Rectángulo con Variables Locales</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 20px;
+    }
+
+    .rectangulo {
+      --altura: 150px;
+      width: calc(var(--altura) * 2);
+      height: var(--altura);
+      background-color: #86bfe5;
+    }
+  </style>
+</head>
+<body>
+  <div class="rectangulo"></div>
+</body>
+</html>
