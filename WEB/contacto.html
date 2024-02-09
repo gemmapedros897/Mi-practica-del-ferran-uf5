@@ -16,8 +16,18 @@
 header {
     background-color: #cb79aa;
     color: #fff;
-    text-align: initial;
+    text-align: center;
     padding: 4px;
+}
+nav {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
 }
 
 .container {
@@ -46,11 +56,16 @@ button {
     cursor: pointer;
 }
     </style>
-    <header>
-        <h1>Contacte</h1>
-        <a href="C:\Users\gemma\OneDrive\Documents\Mi-practica-del-ferran-uf5\WEB\index.html">Inicio</a>
-    </header>
-
+  <header>
+    <h1>Contacte</h1>
+    <img src="logo g.jpg" alt="Logo de Mi Sitio Web" width="50" >
+    <nav>
+      <a href="C:\Users\gemma\OneDrive\Documents\Mi-practica-del-ferran-uf5\WEB\index.html">Inicio</a>
+      <a href="C:\Users\gemma\OneDrive\Documents\Mi-practica-del-ferran-uf5\index.html">Activitats</a>
+      <a href="C:\Users\gemma\OneDrive\Documents\Mi-practica-del-ferran-uf5\WEB\contacto.html">contacto</a>
+      <a href="C:\Users\gemma\OneDrive\Documents\Mi-practica-del-ferran-uf5\WEB">curriclum</a>
+    </nav>
+  </header>
     <div class="container">
         <form action="enviar.php" method="POST">
             <label for="nom">Nom:</label>
