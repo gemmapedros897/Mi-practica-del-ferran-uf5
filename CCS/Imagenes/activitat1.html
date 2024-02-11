@@ -1,0 +1,86 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos_chat.css">
+    <title>Chat Entre Dos Personas</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .chat {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .mensaje {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 10px;
+        }
+
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .info {
+            flex-grow: 1;
+        }
+
+        .nombre {
+            font-weight: bold;
+        }
+
+        .fecha {
+            color: #777;
+            font-size: 0.8em;
+        }
+
+        .texto {
+            margin-top: 5px;
+        }
+    </style>
+    <div class="chat">
+        <div class="mensaje enviado">
+            <div class="avatar">
+                <img src="señora1.png" alt="Avatar Usuario 1">
+            </div>
+            <div class="info">
+                <div class="nombre">meri puri gomez</div>
+                <div class="fecha">14 de febrero, 2016</div>
+                <div class="texto">hola, me gustas te gusto?</div>
+            </div>
+        </div>
+
+        <div class="mensaje recibido">
+            <div class="avatar">
+                <img src="señor1.png" alt="Avatar Usuario 2">
+            </div>
+            <div class="info">
+                <div class="nombre">juan guarniza suarez</div>
+                <div class="fecha">11 de febrero, 2024</div>
+                <div class="texto">-A ver horacio, yo te voy a ser sincero ,de acuerdo? yo, para tener pareja, para... relaciones..yo mmmm, todo el mundo me conoce en comisaría como una persona.. seria, como una persona prácticamente... eeee de hielo ¿de acuerdo? y...</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

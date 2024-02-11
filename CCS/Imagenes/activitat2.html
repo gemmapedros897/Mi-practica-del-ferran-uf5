@@ -1,0 +1,70 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos_tarjeta.css">
+    <title>Tarjeta de Contacto</title>
+</head>
+<body>
+    <style>
+        body, html {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+}
+
+.tarjeta-contacto {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-height: 100vh;
+    object-fit: cover;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+    </style>
+    <main>
+        <section class="tarjeta-contacto">
+            <img src="tu_imagen.jpg" alt="Tu Imagen">
+            <nav>
+                <ul>
+                    <li><a href="curriculum.pdf" target="_blank">Curriculum Vitae</a></li>
+                    <li><a href="https://www.linkedin.com/in/tu_usuario" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://twitter.com/tu_usuario" target="_blank">Twitter</a></li>
+                    <li><a href="mailto:tu@email.com">Correo Electrónico</a></li>
+                    <li><a href="otra_pagina.html" target="_blank">Otra Página</a></li>
+                </ul>
+            </nav>
+        </section>
+    </main>
+</body>
+</html>
