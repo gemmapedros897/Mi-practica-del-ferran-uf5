@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="exer1.css"/>
+</head>
+<body>
+    <header>
+        <h1>Emplena el teu CV</h1>
+    </header>
+    <main>
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" required><br>
+        <br>
+        <label for="cognom">cognom</label>
+        <input type="text" id="cognom" name="cognom" required><br>
+        <br>
+        <label for="Contrasenya">Contrasenya</label>
+        <input type="text" id="Contrasenya" name="Contrasenya" required><br>
+        <br>
+        <label for="DNI">DNI</label>
+        <input type="texT" id="DNI" name="DNI" required><br>
+        <br>
+        <label for="sexe">Sexe</label>
+        <select id="sexe" name="sexe">
+            <p>Sexe</p>
+            <option value="Home">Home</option>
+            <option value="Dona">Dona</option>
+            <option value="Indeterminat">Indeterminat</option>
+        </select>
+        <br>
+        <form action="/upload" metohad="post" enctype="multipart/form-data">
+            <label for="fileInput">Introduce foto</label>
+            <input type="submit" value="foto"><p>No s'ha selecionat cap fitxer</p>
+        </form>
+        
+    </main>
+</body>
+</html>
